@@ -1,0 +1,348 @@
+.clearfix {
+    clear: both;
+}
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+.header {
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 170px;
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #9a9a9a;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    color: #f48146;
+}
+.menu ul li i {
+    display: inline-block;
+    color: #9a9a9a;
+    font-size: 12px;
+}
+
+
+.banner {
+    margin-top: -170px;
+
+    width: 100%;
+    height: 936px;
+    background: url("images/vtf-004-home-interior-website-template-(1)_01.png") top center;
+    display: table;
+}
+
+.banner h1 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 83px;
+
+}
+
+.banner h1 span {
+    color: #f66c27;
+}
+.content1 {
+    padding: 30px 0;
+}
+
+.content1 h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 150px;
+}
+
+.content1 p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.content2 {
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+.content2 h3 {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.content2 .project img {
+    max-width: 100%;
+    padding: 5px;
+    border: 1px solid #eeeeee;
+}
+
+.content2 .img1 img{
+    height: 300px;
+    width: auto;
+    margin-top: 35px;
+}
+
+.content2 .img1 .item {
+    margin-bottom: 90px;
+
+}
+
+.content2.img1 p {
+    margin-bottom: 35px;
+}
+
+.content2 .img1 a {
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 32px;
+}
+
+.content2 .img2 img{
+    height: 650px;
+    width: auto;
+
+}
+
+.content2 .img3 img{
+    height: 300px;
+    width: auto;
+    margin-bottom: 48px;
+}
+.content3{
+    margin-top: 150px;
+}
+.content3 img{
+    width: 90%;
+
+}
+.content3 h3{
+    width: 200px;
+}
+.content3 .click a{
+    margin-top: 50px;
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 32px;
+}
+.content3 .menu-con a {
+    margin-top: 80px;
+    color: #f48146;
+    padding-right: 60px;
+    font-size: 20px;
+}
+.content3 aaa{
+    position: relative;
+}
+.content3 .small img{
+    width: 35%;
+
+    position: absolute;
+    top: 210px; left: 310px;
+
+}
+.content3 p {
+    margin-top: 20px;
+}
+
+.content4{
+    height: 150px;
+    margin-top: 50px;
+}
+.content4 h3{
+    width: 100%;
+    padding-top: 20px;
+    margin-left: 215px;
+}
+.content6{
+    background-color: #f48146;
+    width: 100%;
+    height: 360px;
+}
+.content6 h5{
+    text-align: center;
+    color: #eeeeee;
+    padding-top: 90px;
+}
+.content6 .form{
+ text-align: center;
+    padding-top: 70px;
+
+}
+.content6 .form input[type="submit"] {
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 32px;
+}
+.content6 .form input[type="name"] {
+    background: f3f2f2;
+    color: rgba(46,46,46,0.22);
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 32px;
+}
+
+.content7{
+    width: 100%;
+    height: 585px;
+    background-color: rgba(227,227,227,0.22);
+    text-align: center;
+}
+.content7 h3  {
+    padding-top: 90px;
+}
+.content7 p{
+    padding: 0 250px 0 250px ;
+
+}
+.content7 .text1{
+    color: #f48146;
+    font-size: 20px;
+}
+.content5 {
+    text-align: center;
+    padding: 0 300px 0 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background: linear-gradient(to right, #f48146 50%, #ffffff 50%);
+}
+.footer .contact-form {
+    box-sizing: border-box;
+    background: #f48146;
+    height: 704px;
+}
+
+.footer .content-form {
+    margin-top: 138px;
+    margin-right: 100px;
+    background: #FFF;
+    padding: 60px;
+}
+
+.footer .content-form input, textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    color: #777777;
+    font-size: 15px;
+}
+
+.footer .contact-form-row.first-row input {
+    width: 40%;
+}
+
+.footer.contact-form-row.first-row:after {
+    content: '';
+    clear: both;
+}
+
+.footer .contact-form-row.first-row input[name='email'] {
+    float: right;
+}
+
+.footer .content-form textarea {
+    width: 100%;
+    height: 150px;
+}
+
+.footer .content-form textarea:focus, input:focus{
+    outline: none;
+}
+
+.footer .submit-row {
+    text-align: center;
+}
+
+.footer .content-form input[type="submit"] {
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 6px 20px;
+    border-radius: 32px;
+}
+
+.footer .contact-form-row {
+    margin-bottom: 20px;
+}
+
+.footer .contact-info {
+    box-sizing: border-box;
+    padding-left: 50px;
+    height: 704px;
+}
+
+.footer .contact-info h3 {
+    margin-top: 120px;
+    font-size: 34px;
+}
+
+.footer .line-contact-info {
+    padding: 20px 0;
+}
+
+.footer .line-contact-info h4 {
+    font-size: 25px;
+    color: #333333;
+}
+
+.footer .line-contact-info p {
+    font-size: 14px;
+    max-width: 305px;
+}
+
+.footer .social-icon i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #bbbbbb;
+    margin-right :20px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+.footer .social-icon i:hover {
+    background: #f48146;
+}
